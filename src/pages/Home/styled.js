@@ -17,8 +17,8 @@ export const Header = styled.header`
   max-width: 700px;
 
   img {
-    max-width: 180px;
-    max-height: 80px;
+    max-width: 220px;
+    max-height: auto;
   }
 
   h1 {
