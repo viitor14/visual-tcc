@@ -10,6 +10,8 @@ import { FaCheckCircle } from 'react-icons/fa';
 
 import history from '../../services/history';
 
+import logo from '../../../public/img/logo-white.png';
+
 export default function Login() {
   // Dados estáticos para o ScoreDisplay
   const scoreData = {
@@ -74,7 +76,7 @@ export default function Login() {
         <span>Voltar</span>
       </BackPage>
       <ResultContainer>
-        <h1>Analisador de Acessibilidade Web</h1>
+        <img src={logo} alt="Logo Acessibilidade" />
         <ResultProblems>
           <ScoreDisplay score={scoreData.value} problems={scoreData.problems} />
 

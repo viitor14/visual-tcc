@@ -8,6 +8,11 @@ export const ResultContainer = styled.div`
   justify-content: center;
   gap: 48px;
   width: 100%;
+
+  img {
+    max-width: 120px;
+    max-height: 80px;
+  }
 `;
 
 export const ResultProblems = styled.div`
