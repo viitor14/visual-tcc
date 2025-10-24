@@ -3,6 +3,8 @@ import { useState } from 'react';
 
 import history from '../../services/history';
 
+import logo from '../../../public/img/logo-white-hd.png';
+
 import {
   HomeContainer,
   Header,
@@ -26,7 +28,7 @@ export default function Home() {
   return (
     <HomeContainer>
       <Header>
-        <h1>Analisador de Acessibilidade Web</h1>
+        <img src={logo} alt="Logo A11y Helper" />
         <p>Cole seu HTML, analise e receba melhorias instantâneas</p>
       </Header>
 
