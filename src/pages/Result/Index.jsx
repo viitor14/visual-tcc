@@ -10,7 +10,7 @@ import { FaCheckCircle } from 'react-icons/fa';
 
 import history from '../../services/history';
 
-import logo from '../../../public/img/logo-white.png';
+import logo from '/img/logo-white.png';
 
 export default function Login() {
   // Dados estáticos para o ScoreDisplay

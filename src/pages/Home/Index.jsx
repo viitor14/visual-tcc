@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import history from '../../services/history';
 
-import logo from '../../../public/img/logo-white-hd.png';
+import logo from '/img/logo-white-hd.png';
 
 import {
   HomeContainer,
